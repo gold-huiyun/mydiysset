@@ -3,17 +3,33 @@
 ## 内部助力脚本配置
 ### 1.添加助力脚本文件有很多方法，只列举几个
 
-  法(1)：
+[code.sh](https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/code.sh)
+[task_before.sh](https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/task_before.sh)
+
+  #### 法(1)：
 
 使用某塔面板的文件管理功能或者MobaXterm、FinalShell等等ssh工具的文件管理功能
 
 把`code.sh`和`task_before.sh`这两个文件上传到 `root/ql/config`目录下（task_before.sh有空文件需要覆盖）
 
-  法(2)：
+
+  #### 法(2)：
 
 使用青龙面板脚本管理功能.
 
 点击+号新建脚本，命名`code.sh` 确定后，点击退出编辑脚本，调试-保存-保存目录填`/ql/config`确定
+
+<p align="center">
+  <img width="70%" src="https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/png/1.png">
+</p>
+
+<p align="center">
+  <img width="25%" src="https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/png/2.png">
+  <img width="25%" src="https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/png/3.png">
+</p>
+<p align="center">
+  <img width="70%" src="https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/png/4.png">
+</p>
 
 青龙默认配置文件目录有task_before.sh文件无需新建
 
@@ -21,7 +37,7 @@
 然后回到青龙面板配置文件处右上角可以选择文件
 将code.sh和task_before.sh两个空脚本，依次分别填入对应内容，保存即可
 
-  法(3)：使用青龙在定时面板执行,含有以下内容的.sh脚本
+  #### 法(3)：使用青龙在定时面板执行,含有以下内容的.sh脚本
 ```
 cd /ql/config
 wget https://ghproxy.com/https://raw.githubusercontent.com/gold-huiyun/mydiysset/main/qlhelp/code.sh -O code.sh

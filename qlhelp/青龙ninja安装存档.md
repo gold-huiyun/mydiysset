@@ -117,3 +117,9 @@ docker exec -it qinglong bash -c "apk add python3 zlib-dev gcc jpeg-dev python3-
  
 docker exec -it qinglong bash -c "cd /ql/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source"
 ```
+# 结尾
+
+本文部分内容借鉴于其他作者旧版本教程，在此表示感谢。
+由于时间过久遗失原文链接，如有作者看到请联系我添加参考出处链接
+
+**注：本教程仅供学习交流使用,请勿用于非法交易！**

@@ -125,4 +125,10 @@ docker exec -it qinglong bash -c "cd /ql/scripts/ && apk add --no-cache build-ba
 本文部分内容借鉴于其他作者旧版本教程，在此表示感谢。
 由于时间过久遗失原文链接，如有作者看到请联系我添加参考出处链接
 
-**注：本教程仅供学习交流使用,请勿用于非法交易！**
+**注：本教程仅供学习交流使用,请勿用于非法行为！**
+
+<details>
+<summary>安装好了，怎么用啊</summary>
+   
+[青龙面板食用方法（入坑指北）](https://github.com/gold-huiyun/mydiysset/blob/main/qlhelp/%E9%9D%92%E9%BE%99%E9%9D%A2%E6%9D%BF%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95%EF%BC%88%E5%85%A5%E5%9D%91%E6%8C%87%E5%8C%97%EF%BC%89.md)
+   

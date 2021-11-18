@@ -58,4 +58,10 @@ proc_num="7"
 本文部分内容借鉴于其他作者旧版教程，在此表示感谢。
 [inoyna12有关code.sh的设置](https://github.com/inoyna12/JDsc/blob/main/backUp/code.md)
 
-**注：本教程仅供学习交流使用,请勿用于非法交易！**
+**注：本教程仅供学习交流使用,请勿用于非法行为！**
+
+<details>
+<summary>我不信还有</summary>
+   
+😭😭😭真没了。。。。。
+   

@@ -64,7 +64,11 @@ wget https://ghproxy.com/https://raw.githubusercontent.com/gold-huiyun/mydiysset
 ## 本脚本限制的最大线程数量
 proc_num="7"
 ```
+本code.sh默认调用 inoyna12_JDsc 仓库，使用其他库的可以在配置文件-code.sh中9-19行查看修改
 
+`
+repo=$repo4                                        #默认调用 inoyna12_JDsc 仓库脚本日志
+`
 
 ##### 未完待续......
 

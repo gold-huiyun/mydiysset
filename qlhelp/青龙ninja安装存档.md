@@ -96,6 +96,8 @@ docker restart qinglong
 
 # 依赖库
 ### （最好都装一下，另 jsdom、png-js、requests三个要都装上，不使用命令的话也可在青龙依赖管理安装）
+
+**注意以下命令在上述操作的基础上要先输入`exit`退出青龙容器后执行**
 ```bash
 cd && docker exec -it qinglong bash -c "apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source"
 docker exec -it qinglong bash -c "npm install -g typescript"
